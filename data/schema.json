@@ -1,0 +1,77 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "bank": {
+      "description": "银行现金记录",
+      "fields": {
+        "bank_id": "string",
+        "account": "string",
+        "kind": "string",
+        "amount_cents": "integer",
+        "date": "string",
+        "coverage_key": "string",
+        "reference": "any",
+        "project": "string",
+        "building": "string",
+        "purpose": "string"
+      }
+    },
+    "statements": {
+      "description": "汇总与明细覆盖声明",
+      "fields": {
+        "coverage_key": "string",
+        "summary_id": "string",
+        "detail_ids": "array",
+        "complete": "boolean",
+        "received": "string"
+      }
+    },
+    "assignments": {
+      "description": "资金归集凭证",
+      "fields": {
+        "assignment_id": "string",
+        "bank_id": "string",
+        "contract": "string",
+        "amount_cents": "integer",
+        "purpose": "string",
+        "effective": "string"
+      }
+    },
+    "obligations": {
+      "description": "交付与退款责任",
+      "fields": {
+        "obligation_id": "string",
+        "contract": "string",
+        "kind": "string",
+        "building": "string",
+        "amount_cents": "integer",
+        "effective": "string",
+        "reference": "any"
+      }
+    },
+    "nodes": {
+      "description": "工程释放资格",
+      "fields": {
+        "proof_id": "string",
+        "building": "string",
+        "purpose": "string",
+        "amount_cents": "integer",
+        "effective": "string",
+        "depends_on": "array",
+        "supersedes": "any",
+        "received": "string"
+      }
+    },
+    "transfers": {
+      "description": "合同楼栋归属变更",
+      "fields": {
+        "record_id": "string",
+        "contract": "string",
+        "from_building": "string",
+        "to_building": "string",
+        "effective": "string",
+        "received": "string"
+      }
+    }
+  }
+}

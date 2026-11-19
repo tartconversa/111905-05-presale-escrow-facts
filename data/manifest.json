@@ -1,0 +1,41 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "bank.ndjson",
+      "dataset": "bank",
+      "rows": 5,
+      "sha256": "3626891bf5edd616347b946fbf00d71a0d85b90ac0ab1e3a53bb1df8a6fbe0be"
+    },
+    {
+      "path": "statements.ndjson",
+      "dataset": "statements",
+      "rows": 2,
+      "sha256": "7c295f7ab24a9c424fb87f53c855e61e7fea4c35e39f78575f37b8f166e0b14b"
+    },
+    {
+      "path": "assignments.ndjson",
+      "dataset": "assignments",
+      "rows": 2,
+      "sha256": "1ba4d6ba5d48339e46877156ea1584507537dc33ee16ac34da6320b9343dde63"
+    },
+    {
+      "path": "obligations.ndjson",
+      "dataset": "obligations",
+      "rows": 3,
+      "sha256": "833faddbbe860056c7669e24c8ee0e02dde10085189fb80c967b84bac83cb29c"
+    },
+    {
+      "path": "nodes.ndjson",
+      "dataset": "nodes",
+      "rows": 2,
+      "sha256": "39ee2f3394a12367472a32b290a1118c3039d239fe829e795f026c1fd7f32c86"
+    },
+    {
+      "path": "transfers.ndjson",
+      "dataset": "transfers",
+      "rows": 1,
+      "sha256": "9a38c576fbeaf142a3e53613b68b225f29b4a4351d15b6e815cdc0d21f20d636"
+    }
+  ]
+}

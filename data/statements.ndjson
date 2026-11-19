@@ -1,0 +1,2 @@
+{"complete": false, "coverage_key": "oct-in", "detail_ids": [], "received": "2026-11-01", "summary_id": "SUM1"}
+{"complete": true, "coverage_key": "oct-in", "detail_ids": ["D1", "D2"], "received": "2026-11-04", "summary_id": "SUM1"}

@@ -1,0 +1,2 @@
+{"amount_cents": 3000000, "building": "B1", "depends_on": [], "effective": "2026-11-01", "proof_id": "N1", "purpose": "construction", "received": "2026-11-01", "supersedes": null}
+{"amount_cents": 1000000, "building": "B1", "depends_on": [], "effective": "2026-11-01", "proof_id": "N2", "purpose": "construction", "received": "2026-11-10", "supersedes": "N1"}

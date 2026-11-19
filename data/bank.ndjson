@@ -1,0 +1,5 @@
+{"account": "A1", "amount_cents": 10000000, "bank_id": "SUM1", "building": "B1", "coverage_key": "oct-in", "date": "2026-10-31", "kind": "receipt", "project": "P1", "purpose": "construction", "reference": null}
+{"account": "A1", "amount_cents": 6000000, "bank_id": "D1", "building": "B1", "coverage_key": "oct-in", "date": "2026-10-31", "kind": "receipt", "project": "P1", "purpose": "construction", "reference": null}
+{"account": "A1", "amount_cents": 4000000, "bank_id": "D2", "building": "B1", "coverage_key": "oct-in", "date": "2026-10-31", "kind": "receipt", "project": "P1", "purpose": "construction", "reference": null}
+{"account": "A1", "amount_cents": 2000000, "bank_id": "PAY1", "building": "B1", "coverage_key": "pay-1", "date": "2026-11-02", "kind": "payment", "project": "P1", "purpose": "construction", "reference": null}
+{"account": "A1", "amount_cents": 1000000, "bank_id": "REF1", "building": "B1", "coverage_key": "refund-1", "date": "2026-11-08", "kind": "refund", "project": "P1", "purpose": "construction", "reference": "REQ1"}
